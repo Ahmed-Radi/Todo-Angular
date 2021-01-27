@@ -1,0 +1,6 @@
+<h2>todos works!</h2>
+<ol>
+  <li *ngFor="let todo of todos">
+    <a routerLink="/todos/{{todo._id}}">{{todo.task}}</a>
+  </li>
+</ol>
